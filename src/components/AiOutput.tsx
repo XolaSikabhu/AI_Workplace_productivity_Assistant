@@ -73,7 +73,7 @@ export function AiOutput({
           className="min-h-[320px] flex-1 resize-none font-mono text-sm leading-relaxed"
         />
       ) : (
-        <div className="prose prose-sm max-w-none flex-1 overflow-auto text-foreground prose-headings:text-foreground prose-strong:text-foreground">
+        <div className="md-body flex-1 overflow-auto">
           <ReactMarkdown>{value}</ReactMarkdown>
         </div>
       )}

@@ -104,7 +104,7 @@ function ChatPage() {
                   }
                 >
                   {m.role === "assistant" ? (
-                    <div className="prose prose-sm max-w-none text-foreground prose-headings:text-foreground prose-strong:text-foreground">
+                    <div className="md-body">
                       <ReactMarkdown>{m.content}</ReactMarkdown>
                     </div>
                   ) : (

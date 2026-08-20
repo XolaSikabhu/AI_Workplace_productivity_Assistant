@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# AI_Workplace_productivity_Assistant
 
 This project was built with [Lovable](https://lovable.dev).
 

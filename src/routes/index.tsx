@@ -7,13 +7,13 @@ import { Card } from "@/components/ui/card";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Aurelio — AI Workplace Productivity Assistant" },
+      { title: "AI_Workplace_productivity_Assistant" },
       {
         name: "description",
         content:
           "Automate workplace tasks with AI: draft emails, summarise meetings, plan your week, run research and chat with your assistant.",
       },
-      { property: "og:title", content: "Aurelio — AI Workplace Productivity Assistant" },
+      { property: "og:title", content: "AI_Workplace_productivity_Assistant" },
       {
         property: "og:description",
         content: "Draft emails, summarise meetings, plan tasks and research faster with AI.",

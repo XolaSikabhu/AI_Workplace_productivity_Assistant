@@ -80,7 +80,7 @@ function ChatPage() {
                 <Sparkles className="size-6" />
               </span>
               <p className="max-w-sm text-sm text-muted-foreground">
-                Start a conversation with Aurelio, your workplace assistant.
+                Start a conversation with AI_Workplace_productivity_Assistant.
               </p>
               <div className="flex flex-wrap justify-center gap-2">
                 {SUGGESTIONS.map((s) => (
@@ -138,7 +138,7 @@ function ChatPage() {
                   void send(input);
                 }
               }}
-              placeholder="Ask Aurelio anything…"
+              placeholder="Ask AI_Workplace_productivity_Assistant anything…"
               className="max-h-40 min-h-12 flex-1 resize-none"
             />
             <Button

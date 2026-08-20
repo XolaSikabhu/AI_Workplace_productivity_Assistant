@@ -46,7 +46,7 @@ export const runAiChat = createServerFn({ method: "POST" })
     const result = streamText({
       model: gateway("google/gemini-3.7-flash"),
       system:
-        "You are Aurelio, an AI workplace productivity assistant for busy professionals. Be concise, practical and well structured. Use markdown.",
+        "You are AI_Workplace_productivity_Assistant, an AI workplace productivity assistant for busy professionals. Be concise, practical and well structured. Use markdown.",
       messages: data.messages,
     });
     return { text: await result.text };

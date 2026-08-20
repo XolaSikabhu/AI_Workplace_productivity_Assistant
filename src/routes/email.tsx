@@ -21,13 +21,13 @@ import { Textarea } from "@/components/ui/textarea";
 export const Route = createFileRoute("/email")({
   head: () => ({
     meta: [
-      { title: "Smart Email Generator — Aurelio" },
+      { title: "Smart Email Generator — AI_Workplace_productivity_Assistant" },
       {
         name: "description",
         content:
           "Draft professional workplace emails in seconds with structured AI prompts and fully editable output.",
       },
-      { property: "og:title", content: "Smart Email Generator — Aurelio" },
+      { property: "og:title", content: "Smart Email Generator — AI_Workplace_productivity_Assistant" },
       {
         property: "og:description",
         content: "Draft professional workplace emails in seconds with AI.",

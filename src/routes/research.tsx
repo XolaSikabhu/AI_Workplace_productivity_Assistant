@@ -21,13 +21,13 @@ import { Textarea } from "@/components/ui/textarea";
 export const Route = createFileRoute("/research")({
   head: () => ({
     meta: [
-      { title: "AI Research Assistant — Aurelio" },
+      { title: "AI Research Assistant — AI_Workplace_productivity_Assistant" },
       {
         name: "description",
         content:
           "Brief the AI on a topic and get a structured research memo with findings, comparisons and open questions.",
       },
-      { property: "og:title", content: "AI Research Assistant — Aurelio" },
+      { property: "og:title", content: "AI Research Assistant — AI_Workplace_productivity_Assistant" },
       { property: "og:description", content: "Structured research memos for busy professionals." },
     ],
   }),
